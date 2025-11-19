@@ -96,5 +96,23 @@ flutter:
     - assets/ex4/sunny.png
     - assets/ex4/sunnyCloudy.png
     - assets/ex4/veryCloudy.png
+
+    - assets/images/dice-1.png
+    - assets/images/dice-2.png
+    - assets/images/dice-3.png
+    - assets/images/dice-4.png
+    - assets/images/dice-5.png
+    - assets/images/dice-6.png
+
+    - assets/w4-s2/bird.jpg
+    - assets/w4-s2/bird2.jpg
+    - assets/w4-s2/insect.jpg
+    - assets/w4-s2/girl.jpg
+    - assets/w4-s2/man.jpg
+
+    - assets/weather/autumn.JPG
+    - assets/weather/spring.JPG
+    - assets/weather/summer.JPG
+    - assets/weather/winter.JPG
     # or entire folder:
     # - assets/images/
