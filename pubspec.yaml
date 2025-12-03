@@ -115,5 +115,9 @@ flutter:
     - assets/weather/spring.JPG
     - assets/weather/summer.JPG
     - assets/weather/winter.JPG
+
+    - lib/W9/assets/quiz-logo.png
+
+    - assets/w9/quiz-logo.png
     # or entire folder:
     # - assets/images/
