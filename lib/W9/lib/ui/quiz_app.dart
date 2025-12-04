@@ -16,7 +16,7 @@ class QuizApp extends StatefulWidget {
 }
 
 class _QuizAppState extends State<QuizApp> {
-  ScreenType screen = ScreenType.question;
+  ScreenType screen = ScreenType.start;
 
   void switchScreen(ScreenType type) {
     setState(() {
@@ -75,7 +75,7 @@ class _QuizAppState extends State<QuizApp> {
 
   void onSubmit() {
     testQuiz.answers = answers;
-    submit.quizs.add(testQuiz);
+    submit.quiz = testQuiz;
     setState(() {
       screen = ScreenType.result;
     });
