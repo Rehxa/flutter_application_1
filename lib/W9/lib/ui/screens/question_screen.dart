@@ -15,8 +15,6 @@ class QuestionScreen extends StatelessWidget {
   });
   final Quiz quiz;
   final List<Answer> answers;
-  //todo: submit button
-  //todo manage and create new data instead of use the old one
   final Widget lastButton;
   final VoidCallback onBack;
   final void Function(int, String) onAnswer;

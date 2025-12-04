@@ -38,4 +38,4 @@ List<Answer> sampleAnswers = [
 
 Quiz testQuiz = Quiz(questions: sampleQuestions);
 
-Submission submit = Submission(quizs: []);
+Submission submit = Submission(quiz: Quiz(questions: []));

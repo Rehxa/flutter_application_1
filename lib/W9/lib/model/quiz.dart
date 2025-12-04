@@ -40,8 +40,8 @@ class Answer {
 }
 
 class Submission {
-  final List<Quiz> quizs;
+  Quiz quiz;
   DateTime submittedTime;
-  Submission({required this.quizs, DateTime? time})
+  Submission({required this.quiz, DateTime? time})
     : submittedTime = time ?? DateTime.now();
 }
